@@ -1,0 +1,13 @@
+html {
+    background: #18453B;
+}
+
+body {
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(143, 143, 143);
+}
+
+.header {
+    text-align: center;
+}
