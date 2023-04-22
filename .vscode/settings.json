@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/eed43a4e-7977-4877-bd64-6f1cc8d41993/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/CloudCheck-group6",
+    "appService.deploySubpath": "."
+}
