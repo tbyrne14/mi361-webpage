@@ -17,9 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3.2.0
         with:
-        runs:
-          using: 'node16'
-          main: 'main.js'
           submodules: true
       - name: Build And Deploy
         id: builddeploy
