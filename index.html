@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="java" href="fun.js">
     <title>Cloud Check</title>
 </head>
 <body>
@@ -21,36 +20,23 @@
     <section>
         <div class="input-boxes">
             <h3>Enter Your Name :</h3>
-            <input type="text" id="input" placeholder="Type your name here...">
-            <button onclick="displayInput()">Submit</button>
-            <br>
-            <p id="output"></p>
+            <input type="text" placeholder="Type your name here...">
+            <button>Submit</button>
         </div>
     </section>
     <section>
         <div class="input-boxes">
             <h3>Enter The Event You're Attending :</h3>
-            <input type="text" id="input1" placeholder="Type your event here...">
-            <button onclick="displayInput()">Submit</button>
-            <br>
-            <p id="output1"></p>
+            <input type="text" placeholder="Type your event here...">
+            <button>Submit</button>
         </div>
     </section>
     <section>
         <div class="input-boxes">
             <h3>Enter The Current Time :</h3>
-            <input type="text" id="input2" placeholder="Type the time here...">
-            <button onclick="displayInput()">Submit</button>
-            <br>
-            <p id="output2"></p>
+            <input type="text" placeholder="Type the time here...">
+            <button>Submit</button>
         </div>
     </section>
-    <script>
-        function displayInput() {
-            var name = document.getElementById("input").value;
-            document.getElementById("output").innerHTML = "Hello, " + name +"!";
-        }
-    </script>
-    
 </body>
 </html>
